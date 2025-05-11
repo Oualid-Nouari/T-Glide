@@ -1488,8 +1488,6 @@ blockquote {
     bottom: 0;
     background-color: #fff;
     z-index: 99999;
-    width: 100vw !important;
-    height: 100vh !important;
 }
 
 #status {
@@ -1498,9 +1496,10 @@ blockquote {
     position: absolute;
     left: 50%;
     top: 50%;
+    transform: translate(-50%, -50%);
     background-position: center;
-    margin: -55px 0 0 -55px;
     text-align: center;
+    
 }
 
 
@@ -1536,8 +1535,8 @@ blockquote {
 
 .la-ball-triangle-path>div {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 35%;
+    left: 35%;
     width: 10px;
     height: 10px;
     border-radius: 100%;
