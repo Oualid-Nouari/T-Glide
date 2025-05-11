@@ -1488,6 +1488,8 @@ blockquote {
     bottom: 0;
     background-color: #fff;
     z-index: 99999;
+    width: 100vw !important;
+    height: 100vh !important;
 }
 
 #status {
