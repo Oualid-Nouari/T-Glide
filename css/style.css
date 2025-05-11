@@ -2182,7 +2182,6 @@ blockquote {
 
     .col-38.hero {
         width: 100%;
-        text-align: center;
     }
 
     .col-38.hero h1 {
@@ -2193,7 +2192,7 @@ blockquote {
         font-weight: bold !important;
         text-shadow: none;
         width: 80%;
-        margin: 0 auto;
+        font-size: 16px !important;
     }
 
     #banner .section-heading:before {
@@ -2202,6 +2201,10 @@ blockquote {
 
     .section-heading h2:after {
         display: none !important;
+    }
+
+    .testimonial-bigest {
+        display: none;
     }
 
 
